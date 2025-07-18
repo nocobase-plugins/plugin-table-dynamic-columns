@@ -1,0 +1,26 @@
+# run 
+npx serve@latest . -l tcp://0.0.0.0:3000
+
+# test
+curl http://127.0.0.1:3000/readme
+
+# config
+(customForm, filterForm) => {
+  return {
+    type: 'api',
+    data: {
+      url: 'http://localhost:3000/mock-columns.json',
+      method: 'get'
+    }
+  }
+}
+
+(customForm, filterForm, rowIds) => {
+  return {
+    type: 'api',
+    data: {
+      url: 'http://localhost:3000/mock-rows.json',
+      method: 'get'
+    }
+  }
+}

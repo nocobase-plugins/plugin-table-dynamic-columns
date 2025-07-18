@@ -1,0 +1,22 @@
+{
+  "name": "@nocobase/plugin-table-dynamic-columns",
+  "version": "1.7.7",
+  "main": "./dist/server/index.js",
+  "displayName": "Table Dynamic Columns",
+  "displayName.zh-CN": "表格动态列",
+  "description": "A table dynamic columns plugin",
+  "description.zh-CN": "一个表格动态列插件",
+  "devDependencies": {
+    "@ant-design/icons": "5.x",
+    "@formily/react": "2.x",
+    "antd": "5.x",
+    "react": "^18.2.0",
+    "react-i18next": "^11.15.1"
+  },
+  "peerDependencies": {
+    "@nocobase/client": "1.x",
+    "@nocobase/server": "1.x",
+    "@nocobase/test": "1.x"
+  },
+  "gitHead": "d0b4efe4be55f8c79a98a331d99d9f8cf99021a1"
+}
