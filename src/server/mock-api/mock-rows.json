@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "rowKey": 1,
+      "colKey": "xiaomi",
+      "value": 666
+    },
+    {
+      "rowKey": 2,
+      "colKey": "apple",
+      "value": 444
+    }
+  ]
+}
